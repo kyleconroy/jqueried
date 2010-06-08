@@ -7,7 +7,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>jQueried</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.kylconroy.jqueried</string>
+	<string>com.kyleconroy.safari.jqueried</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
@@ -26,9 +26,9 @@
 				<key>Image</key>
 				<string>toolbar-icon.png</string>
 				<key>Label</key>
-				<string>jQueryied</string>
+				<string>jQueried</string>
 				<key>Palette Label</key>
-				<string>jQueryied</string>
+				<string>jQueried</string>
 				<key>Tool Tip</key>
 				<string>Add jQuery to the current webpage</string>
 			</dict>
