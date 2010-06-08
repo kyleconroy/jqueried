@@ -1,0 +1,28 @@
+@-webkit-keyframes fade {
+  0%   { opacity: 0; }
+  20%  { opacity: 0.9; }
+  80%  { opacity: 0.9; }
+  100% { opacity: 0; }
+}
+
+.jqueried-message {
+    background: #FFF8A0; 
+    opacity: 0;
+    left: 50%; 
+    margin-left: -85px;
+    padding: 10px; 
+    position: fixed; 
+    top: 0px;
+    width: 150px; 
+    border-left: solid 1px #FFE458;
+    border-bottom: solid 1px #FFE458;
+    border-right: solid 1px #FFE458; 
+    z-index: 9999;
+    font-size: 14px;
+    text-align: center;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+}

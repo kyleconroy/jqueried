@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQueried</title>
+<script type="text/javascript">
+function performCommand(event)
+{
+    if (event.command === "jqueried-button") {
+        
+        safari.application.activeBrowserWindow.activeTab.page.dispatchMessage("jqueried", "");
+        
+    }
+}
+ 
+function validateCommand(event)
+{
+    if (event.command === "jqueried-button") {
+        
+    }
+}
+ 
+safari.application.addEventListener("command", performCommand, false);
+safari.application.addEventListener("validate", validateCommand, false);
+
+
+</script>
+</head>
+<body></body>
+</html>
