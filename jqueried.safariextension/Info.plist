@@ -4,6 +4,8 @@
 <dict>
 	<key>Author</key>
 	<string>Kyle Conroy</string>
+	<key>Builder Version</key>
+	<string>7534.48.3</string>
 	<key>CFBundleDisplayName</key>
 	<string>jQueried</string>
 	<key>CFBundleIdentifier</key>
